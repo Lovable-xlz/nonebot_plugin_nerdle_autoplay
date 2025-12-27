@@ -48,7 +48,7 @@ __plugin_meta__ = PluginMetadata(
         "相邻消息间隔 5 秒，展示每一步的猜测和反馈"
     ),
     type="application",
-    homepage="?",
+    homepage="https://github.com/Lovable-xlz/nonebot_plugin_nerdle_autoplay/tree/main",
     supported_adapters=inherit_supported_adapters(
         "nonebot_plugin_alconna", "nonebot_plugin_uninfo"
     ),
@@ -403,4 +403,5 @@ async def send_cached_result(matcher: Matcher, history: GameHistory):
 async def startup_cleanup():
     """启动时清理过期缓存"""
     logger.info("启动时清理nerdle过期缓存...")
+
     await run_sync(clean_old_caches)()
