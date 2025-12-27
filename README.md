@@ -36,7 +36,7 @@ nonebot-plugin-nerdle-autoplay = ["nonebot_plugin_nerdle_autoplay"]
 
 -----------
 
-插件将自动访问 nerdlegame.com，模拟完整游戏过程，并随后展示每一步的猜测和反馈。
+插件将自动访问 https://nerdlegame.com，模拟完整游戏过程，并随后展示每一步的猜测和反馈。
 
 每日首次运行会缓存结果，后续调用直接返回缓存（缓存每日 8 点刷新，8 点附近的调用记录不会被缓存以防止日期出错）。
 
