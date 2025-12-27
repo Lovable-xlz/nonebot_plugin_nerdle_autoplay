@@ -48,3 +48,6 @@ nonebot-plugin-nerdle-autoplay = ["nonebot_plugin_nerdle_autoplay"]
 
 #### 请一定确保你的本地环境下已正确安装了 `selenium` `webdriver-manager` `pillow` 库！！！
 
+## 其他说明
+
+关于 `/nonebot_plugin_nerdle_autoplay/resources` 下的文件生成，请参考 https://github.com/Lovable-xlz/nonebot_plugin_nerdle 仓库中的 `cpp` 文件。
