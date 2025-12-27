@@ -48,7 +48,7 @@ __plugin_meta__ = PluginMetadata(
         "相邻消息间隔 5 秒，展示每一步的猜测和反馈"
     ),
     type="application",
-    homepage="https://github.com/Lovable-xlz/nonebot_plugin_nerdle_autoplay/tree/main",
+    homepage="https://github.com/Lovable-xlz/nonebot_plugin_nerdle_autoplay",
     supported_adapters=inherit_supported_adapters(
         "nonebot_plugin_alconna", "nonebot_plugin_uninfo"
     ),
@@ -405,3 +405,4 @@ async def startup_cleanup():
     logger.info("启动时清理nerdle过期缓存...")
 
     await run_sync(clean_old_caches)()
+
